@@ -40,7 +40,7 @@ class SiswaController extends Controller
       return redirect('/siswa');
 
     }
-
+    //Rafli
 
     public function edit($id)
    {
