@@ -1,0 +1,28 @@
+.btn-primary {
+    background: rgb(231, 152, 5);
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn-primary:hover {
+    background: rgb(202, 134, 6);
+    border: 0;
+}
+
+.btn-secondary {
+    background: none;
+    border: 100%;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+    margin-left: 50px;
+}
+
+.btn-secondary:hover {
+    background: rgb(202, 134, 6);
+    
+}
