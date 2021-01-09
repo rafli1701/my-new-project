@@ -1,0 +1,75 @@
+/* install fonts */
+@font-face {
+    font-family: ShrikhandRegular;
+    src: url('../font/Shrikhand-Regular.ttf');
+}
+
+/* install fonts */
+@font-face {
+    font-family: VastShadow;
+    src: url('../font/VastShadow-Regular.ttf');
+}
+
+.container {
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.fitur { 
+    background: rgb(241, 13, 230); 
+}
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to right, gray, blue, gray);
+    padding-left: 50px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: Bungee Shade;
+    color: white;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 60px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 20px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: white;
+    text-decoration: none;
+    font-family: ShrikhandRegular;
+}
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.icon-kelas{
+    width:300px;
+    height: 300px;
+    background-image: url('..//images/photo_2019-10-06_19-46-57.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.parent {
+    margin-top: 100px;
+}
+
+
+
+    
